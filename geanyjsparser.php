@@ -198,7 +198,7 @@ function getOpenFilesList($projectDir)
 }
 
 function lg($s) {
-	file_put_contents(__DIR__ . '/log.log', $s . N, FILE_APPEND);
+	// file_put_contents(__DIR__ . '/log.log', $s . N, FILE_APPEND);
 }
 
 main($argc, $argv);
